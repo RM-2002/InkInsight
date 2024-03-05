@@ -1,0 +1,107 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  ),
+  url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+
+.registerTitle {
+  font-size: 50px;
+  margin-left: 2px;
+}
+
+.registerForm {
+  margin-left: 47px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align form elements center horizontally */
+  width: 500px; /* Set the width of the form */
+}
+
+.fieldGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Add margin between field groups */
+}
+
+.fieldGroup label {
+  margin-bottom: 15px !important; /* Add space between label and input */
+  margin-left: 3px;
+}
+
+.nameFields {
+ 
+  
+  margin-right: 30px !important;
+}
+
+.usernameEmailFields {
+  margin-right: 30px !important;
+  
+}
+
+.passwordFields{
+  margin-right: 30px !important;
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 200px; /* Ensure input fields take full width */
+  margin-bottom: 10px; /* Add margin bottom to create space between inputs */
+  margin-top: 10px;
+}
+
+.registerInput:focus {
+  outline: none;
+}
+
+.registerButton {
+  margin-top: 20px;
+  margin-left: -33px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 130px; /* Ensure button takes full width */
+}
+
+.registerButton:hover{
+  background-color: rgb(2, 94, 94);
+}
+.registerButton:disabled{
+  cursor: not-allowed;
+  background-color: rgb(1, 172, 172);
+}
+
+.error-message{
+  color: red;
+  margin-top: 10px;
+  margin-left: -32px;
+}
+
+.registerLoginButton {
+  margin-top: 20px; /* Add margin top for separation */
+  margin-left: 11px;
+  background-color: lightcoral;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  width: 130px; /* Ensure button takes full width */
+}

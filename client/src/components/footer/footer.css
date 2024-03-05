@@ -1,0 +1,35 @@
+/* Footer.css */
+
+.footer {
+    margin-top: 10px;
+    background: linear-gradient(45deg, #03403a, #00655b, rgb(0, 70, 156),#4141a3);
+    /* Displaying text as inline-block to apply gradient */
+   
+    color: #fff;
+    padding: 8px 8px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .footer-bottom {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  

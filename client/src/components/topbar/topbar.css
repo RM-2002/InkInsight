@@ -1,0 +1,107 @@
+.top {
+  width: 100%;
+  height: 50px;
+  background: rgb(247, 249, 252);
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  z-index: 999;
+}
+
+.topBarItem{
+  font-weight: 600 !important;
+  color: #0d665d;
+  
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  
+  cursor: pointer;
+}
+
+.topIcon:hover {
+ 
+  font-size: 24px;
+  box-shadow: 0 0 1px #fff, 0 0 2px #316FF6, 0 0 4px #316FF6; /* Glowing effect on hover */
+}
+
+.topImg {
+  margin-left: 13px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-left: 38px;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  
+  cursor: pointer;
+}
+
+.authenticationBtn {
+  background: linear-gradient(45deg, #06d4c0, #0d665d, rgb(17, 81, 159),#7171f9);
+  /* Displaying text as inline-block to apply gradient */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400 !important;
+  
+}
+
+.topSearchIcon {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+
+/* topbar.css */
+.topRight input[type="text"] {
+  width: 100px; /* Set the width of the input */
+  padding: 5px; /* Add padding to the input */
+  font-size: 14px; /* Adjust font size */
+  border: 1px solid #919fbc  !important; /* Add border */
+  border-radius: 5px; /* Add border radius */
+}
+
+.topRight button {
+  padding: 0px; /* Adjust padding of the button */
+  border: none; /* Remove border */
+  background-color: none; /* Change background color */
+  cursor: pointer;
+}
+
+.topRight button:hover {
+  background-color: none; /* Change background color on hover */
+}

@@ -1,0 +1,50 @@
+.header {
+    margin-top: 100px;
+    
+  }
+  
+  .headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+    color: #444;
+  }
+  
+  .headerTitleSm {
+    
+    position: absolute;
+    top: 16%;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: oblique;
+    color: #085049;
+  }
+  
+  .headerTitleLg {
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+    
+    background: linear-gradient(45deg, #06d4c0, #0d665d, rgb(17, 81, 159),#cfcff7);
+      /* Displaying text as inline-block to apply gradient */
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+         /* Adding the vendor-specific prefixes for wider browser support */
+        
+    
+  }
+ 
+  .mrgnLft{
+    margin-left:14px;
+  }
+  
+  .headerImg {
+    width: 100%;
+    height: 550px;
+    margin-top: 80px;
+    object-fit: cover;
+  }
+  

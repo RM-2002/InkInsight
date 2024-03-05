@@ -1,0 +1,113 @@
+.sidebar {
+    flex: 3;
+    height: fit-content;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sidebarTitle {
+    margin: 10px;
+    padding: 5px;
+   
+    border-top: solid 1px #a7a4a4;
+    border-bottom: solid 1px #a7a4a4;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: #222222;
+    font-weight: 600;
+  }  
+
+ .sidebarTitlee{
+    margin: 10px;
+
+    padding: 5px;
+
+    padding-left: 0px;
+    width: 80%;
+    border-top: solid 1px #a7a4a4;
+    border-bottom: solid 1px #a7a4a4;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: #222222;
+    font-weight: 600;
+ }
+
+  .sidebarItem > img {
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .sidebarItem > p {
+    padding: 30px 5px;
+  }
+
+  .sidebarDesc{
+    margin-left: 30px !important;
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #222222;
+    font-weight: 600;
+    white-space: 10px;
+
+
+
+    
+  }
+  
+  .sidebarList {
+    list-style-type: none;
+    width:200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  
+  .sidebarListItem {
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(45deg, #059d8e, #0d665d, rgb(17, 81, 159),#171783);
+    /* Displaying text as inline-block to apply gradient */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .sidebarIcon {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .aboutLink{
+    margin-bottom: 15px;
+    background: linear-gradient(45deg, #03403a, #00655b, rgb(0, 70, 156),#171783);
+    /* Displaying text as inline-block to apply gradient */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
