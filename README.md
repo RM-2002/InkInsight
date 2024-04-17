@@ -48,9 +48,13 @@ cd InkInsight
 
 cd api
 
+npm install
+
 nodemon index.js //backend part
 
 cd client
+
+npm install
 
 npm start //frontend part
 
