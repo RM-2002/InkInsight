@@ -1,5 +1,8 @@
 # InkInsight Blog Website - MERN Stack Project
 
+![image](https://github.com/RM-2002/InkInsight/assets/89720737/8e59ef34-7b94-4946-ad43-3a5a7207f697)
+
+
 ## Overview
 
 InkInsight is a full-stack blog website built using the MERN stack. It utilizes React for the frontend and Node.js, Express.js, and MongoDB for the backend. This platform enables users to register, log in, publish, edit, and delete their blogs. Users can also browse and search for blogs by usernames, offering an interactive and engaging blogging experience.
