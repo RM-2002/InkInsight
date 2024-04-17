@@ -1,6 +1,8 @@
 # InkInsight Blog Website - MERN Stack Project
 
-![image](https://github.com/RM-2002/InkInsight/assets/89720737/8e59ef34-7b94-4946-ad43-3a5a7207f697)
+![image](https://github.com/RM-2002/InkInsight/assets/89720737/2e8247ba-4960-4ee8-8b91-18c407d16820)
+
+![image](https://github.com/RM-2002/InkInsight/assets/89720737/3f580ab8-9da6-4f04-886b-d743a65d0cb0)
 
 
 ## Overview
