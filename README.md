@@ -41,7 +41,16 @@ git clone https://github.com/RM-2002/InkInsight.git
 
 cd InkInsight
 
+cd api
 
+nodemon index.js //backend part
+
+cd client
+
+npm start //frontend part
+
+
+## Feel free to explore the project and provide any feedback or suggestions!
 
 
 
